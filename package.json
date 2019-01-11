@@ -1,6 +1,6 @@
 {
-  "name": "tap-browser-el",
-  "version": "2.0.0",
+  "name": "@jpweeks/tap-browser-el",
+  "version": "2.0.1",
   "description": "A tap/tape reporter which adds a dom element to the dom and can be styled easily",
   "main": "index.js",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "apply-selector-and-css": "^1.0.3"
   },
   "devDependencies": {
-    "tape": "^3.5.0"
+    "tape": "^4.9.2"
   },
   "scripts": {},
   "keywords": [

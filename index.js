@@ -248,12 +248,10 @@ function parseEnd(line) {
       this.numFail = parseInt(regResult[ 1 ]);
     }
 
-    if(this.numFail === 0 ) {
-
-      cEl = getEL(CLASS_NAMES.TAP_RESULT_PASS);
-    } else {
-
+    if(this.numFail > 0 ) {
       cEl = getEL(CLASS_NAMES.TAP_RESULT_FAIL);
+    } else {
+      cEl = getEL(CLASS_NAMES.TAP_RESULT_PASS);
     }
     
     this.numPassed = this.numPassed || 0;
